@@ -13,13 +13,13 @@
     * -------------------------------------------------- */
     const tl = anime.timeline( {
         easing: 'easeInOutCubic',
-        duration: 800,
+        duration: 700,
         autoplay: false
     })
     .add({
         targets: '#loader',
         opacity: 0,
-        duration: 1000,
+        duration: 700,
         begin: function(anim) {
             window.scrollTo(0, 0);
         }
@@ -40,13 +40,13 @@
     .add({
         targets: '.s-intro__bg',
         opacity: [0, 1],
-        duration: 1000,
+        duration: 500,
     })
     .add({
         targets: ['.animate-on-load'],
         translateY: [100, 0],
         opacity: [0, 1],
-        delay: anime.stagger(400)
+        delay: anime.stagger(100)
     });
 
 
