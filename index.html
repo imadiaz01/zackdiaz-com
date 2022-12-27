@@ -6,26 +6,28 @@
     ================================================== -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Zack Diaz official website">
+    <link rel="preload" href="/images/intro-bg.webp" as="image">
     <title>Zack Diaz</title>
 
+    <!-- scripts -->
     <script>
         document.documentElement.classList.remove('no-js');
         document.documentElement.classList.add('js');
     </script>
-
-
+    <script src="node_modules/lite-youtube-embed/src/lite-yt-embed.js"></script>
     <!-- CSS
     ================================================== -->
-    <link rel="stylesheet" href="css/vendor.css">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="node_modules/lite-youtube-embed/src/lite-yt-embed.css" />
     <!-- favicons
     ================================================== -->
     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
     <link rel="manifest" href="site.webmanifest">
-
+    
 </head>
 
 
@@ -54,9 +56,10 @@
                         <a href="index.html" rel="home">Zack Diaz.</a>
                     </p>
                 </div>
-        <!-- dark theme switch -->
+               
+        <!-- dark theme switch onclick="DarkReader.setFetchMethod(window.fetch), DarkReader.disable();" -->
         <div class="s-header__branding" >
-        <label id= "invertme" class="switch" value="invertme">
+        <label id= "invertme" class="switch" onclick="DarkReader.setFetchMethod(window.fetch); DarkReader.disable();">
             <input type="checkbox">
             <span class="slider round"></span>
             </label>
@@ -178,15 +181,15 @@
                                 </div>
                                
                             </div>
-    
                             <div class="timeline__block">
                                 <div class="timeline__bullet"></div>
                                 <div class="timeline__header">
-                                    <h4 class="timeline__title"><a href="https://www.youtube.com/watch?v=3wdgElfu2eQ">Tentacion</a></h4>
+                                    <h4 class="timeline__title"><a href="https://www.youtube.com/watch?v=AG3zR_RvqIU">Veneno</a></h4>
                                     <h5 class="timeline__meta">Single</h5>
-                                    <p class="timeline__timeframe">Novemember 2021</p>
+                                    <p class="timeline__timeframe">September 2022</p>
                                 </div>
                             </div>
+                            
     
                         </div> <!-- end timeline -->
     
@@ -203,18 +206,18 @@
                             <div class="timeline__block">
                                 <div class="timeline__bullet"></div>
                                 <div class="timeline__header">
-                                    <h4 class="timeline__title"><a href="https://www.youtube.com/watch?v=W6u4e_K3ybM">Poca Tela</a></h3>
-                                    <h5 class="timeline__meta">Single</h5>
-                                    <p class="timeline__timeframe">January 2022</p>
+                                    <h4 class="timeline__title"><a href="https://www.youtube.com/watch?v=HWXPOeDGRYc&themeRefresh=1">10 PM</a></h3>
+                                    <h5 class="timeline__meta">Single from EP ''YXNG GOATZ"</h5>
+                                    <p class="timeline__timeframe">October 2022</p>
                                 </div>
                             </div>
     
                             <div class="timeline__block">
                                 <div class="timeline__bullet"></div>
                                 <div class="timeline__header">
-                                    <h4 class="timeline__title"><a href="https://www.youtube.com/watch?v=AG3zR_RvqIU">Veneno</a></h4>
-                                    <h5 class="timeline__meta">Single</h5>
-                                    <p class="timeline__timeframe">September 2022</p>
+                                    <h4 class="timeline__title"><a href="https://www.youtube.com/watch?v=kpl-yHnldR0">De Mentira</a></h4>
+                                    <h5 class="timeline__meta">Single from EP ''YXNG GOATZ"</h5>
+                                    <p class="timeline__timeframe">Novemember 2022</p>
                                 </div>
                             </div>
     
@@ -233,15 +236,9 @@
                 <div class="column lg-12">
                     <h2 class="text-pretitle">Gallery</h2>
 <br>
-<div class="video-container">    
-    <iframe
-      src="https://www.youtube.com/embed/AG3zR_RvqIU"
-      frameborder="0" &autoplay="1"
-      allow="accelerometer; autoplay; encrypted-media; gyroscope;"
-      allowfullscreen></iframe>
-  </div>
-                    
-                </div>
+<lite-youtube videoid="AG3zR_RvqIU" playlabel="Play: Zack Diaz 'Veneno' "></lite-youtube>   
+
+            </div>
             </div>
 
             <div class="row folio-list block-lg-one-half block-stack-on-550" data-animate-block>
@@ -249,15 +246,14 @@
                 <div class="column" data-animate-el>
                     <div class="folio-item">
                         <div class="folio-item__thumb">
-                            <a class="folio-item__thumb-link" href="images/portfolio/gallery/GM-9290.jpg"  data-size="4640x6960">
-                                <img src="images/portfolio/gallery/GM-9290.jpg" 
-                                     srcset="images/portfolio/gallery/GM-9290.jpg 1x, images/portfolio/gallery/GM-9290.jpg 2x" alt="">
+                            <a class="folio-item__thumb-link" href="images/portfolio/gallery/GM-9290.webp"  data-size="800×1200">
+                                <img src="images/portfolio/gallery/GM-9290.webp" size="800×1200 px"
+                                     srcset="images/portfolio/gallery/GM-9290.webp 1x, images/portfolio/gallery/GM-9290.webp 2x" alt="">
                             </a>
                         </div>
                         <div class="folio-item__info">
                             <div class="folio-item__meta">
                                 <span class="cat"></span>
-                                <a href="" title="Project Link" class="project-link"></a>
                             </div>
                             <h4 class="folio-item__title"></h4>
                         </div>
@@ -269,15 +265,14 @@
                 <div class="column" data-animate-el>
                     <div class="folio-item">
                         <div class="folio-item__thumb">
-                            <a class="folio-item__thumb-link" href="images/portfolio/gallery/GM-9318.jpg"  data-size="4640x6960">
-                                <img src="images/portfolio/gallery/GM-9318.jpg" 
-                                     srcset="images/portfolio/gallery/GM-9318.jpg 1x, images/portfolio/gallery/GM-9318.jpg 2x" alt="">
+                            <a class="folio-item__thumb-link" href="images/portfolio/gallery/GM-9318.webp"  data-size="800×1200">
+                                <img src="images/portfolio/gallery/GM-9318.webp" size="800×1200 px"
+                                     srcset="images/portfolio/gallery/GM-9318.webp 1x, images/portfolio/gallery/GM-9318.webp 2x" alt="">
                             </a>
                         </div>
                         <div class="folio-item__info">
                             <div class="folio-item__meta">
                                 <span class="cat"></span>
-                                <a href="" title="Project Link" class="project-link"></a>
                             </div>
                             <h4 class="folio-item__title"></h4>
                         </div>
@@ -289,15 +284,14 @@
                 <div class="column" data-animate-el>
                     <div class="folio-item">
                         <div class="folio-item__thumb">
-                            <a class="folio-item__thumb-link" href="images/portfolio/gallery/GM-9300.jpg" data-size="4640x6960">
-                                <img src="images/portfolio/gallery/GM-9300.jpg" 
-                                     srcset="images/portfolio/gallery/GM-9300.jpg 1x, images/portfolio/gallery/GM-9300.jpg 2x" alt="">
+                            <a class="folio-item__thumb-link" href="images/portfolio/gallery/GM-9300.webp" data-size="800×1200">
+                                <img src="images/portfolio/gallery/GM-9300.webp" size="800×1200 px"
+                                     srcset="images/portfolio/gallery/GM-9300.webp 1x, images/portfolio/gallery/GM-9300.webp 2x" alt="">
                             </a>
                         </div>
                         <div class="folio-item__info">
                             <div class="folio-item__meta">
                                 <span class="cat"></span>
-                                <a href="" title="Project Link" class="project-link"></a>
                             </div>
                             <h4 class="folio-item__title"></h4>
                         </div>
@@ -309,15 +303,14 @@
                 <div class="column" data-animate-el>
                     <div class="folio-item">
                         <div class="folio-item__thumb">
-                            <a class="folio-item__thumb-link" href="images/portfolio/gallery/IMG_8531.jpg" data-size="4640x6960">
-                                <img src="images/portfolio/gallery/IMG_8531.jpg" 
-                                     srcset="images/portfolio/gallery/IMG_8531.jpg 1x, images/portfolio/gallery/IMG_8531.jpg 2x" alt="">
+                            <a class="folio-item__thumb-link" href="images/portfolio/gallery/IMG_8531.webp" data-size="800×1200">
+                                <img src="images/portfolio/gallery/IMG_8531.webp" size="800×1200 px"
+                                     srcset="images/portfolio/gallery/IMG_8531.webp 1x, images/portfolio/gallery/IMG_8531.webp 2x" alt="">
                             </a>
                         </div>
                         <div class="folio-item__info">
                             <div class="folio-item__meta">
                                 <span class="cat"></span>
-                                <a href="h" title="Project Link" class="project-link"></a>
                             </div>
                             <h4 class="folio-item__title">
                                 
@@ -333,7 +326,6 @@
                         <div class="folio-item__info">
                             <div class="folio-item__meta">
                                 <span class="cat"></span>
-                                <a href="" title="Project Link" class="project-link"></a>
                             </div>
                             <h4 class="folio-item__title"></h4>
                         </div>
@@ -405,7 +397,7 @@
 
                 <div class="ss-go-top">
                     <a class="smoothscroll" title="Back to Top" href="#top">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1); transform:(); msFilter:();"><path d="M6 4h12v2H6zm5 10v6h2v-6h5l-6-6-6 6z"></path></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1); transform:(); "><path d="M6 4h12v2H6zm5 10v6h2v-6h5l-6-6-6 6z"></path></svg>
                     </a>
                 </div>
             </div> <!-- end s-footer__bottom-->
@@ -415,50 +407,16 @@
     </div> <!-- end s-pagewrap -->
 
 
-    <!-- photoswipe background
-    ================================================== -->
-    <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
-
-        <div class="pswp__bg"></div>
-        <div class="pswp__scroll-wrap">
-
-            <div class="pswp__container">
-                <div class="pswp__item"></div>
-                <div class="pswp__item"></div>
-                <div class="pswp__item"></div>
-            </div>
-
-            <div class="pswp__ui pswp__ui--hidden">
-                <div class="pswp__top-bar">
-                    <div class="pswp__counter"></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button> <button class="pswp__button pswp__button--share" title=
-                    "Share"></button> <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom" title=
-                    "Zoom in/out"></button>
-                    <div class="pswp__preloader">
-                        <div class="pswp__preloader__icn">
-                            <div class="pswp__preloader__cut">
-                                <div class="pswp__preloader__donut"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-                    <div class="pswp__share-tooltip"></div>
-                </div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button> <button class="pswp__button pswp__button--arrow--right" title=
-                "Next (arrow right)"></button>
-                <div class="pswp__caption">
-                    <div class="pswp__caption__center"></div>
-                </div>
-            </div>
-
-        </div>
-
-    </div> <!-- end photoSwipe background -->
-
 
     <!-- Java Script
     ================================================== -->
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/darkreader"></script>
+    <script>
+    DarkReader.setFetchMethod(window.fetch);
+    DarkReader.enable();
+    </script>
 
 </body>
 </html>
